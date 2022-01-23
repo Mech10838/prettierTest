@@ -1,23 +1,25 @@
 {
-  "name": "prettiertest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mech10838/prettierTest.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mech10838/prettierTest/issues"
-  },
-  "homepage": "https://github.com/Mech10838/prettierTest#readme",
-  "devDependencies": {
-    "husky": "^7.0.0"
-  }
+    "name": "prettiertest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "prepare": "husky install",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mech10838/prettierTest.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mech10838/prettierTest/issues"
+    },
+    "homepage": "https://github.com/Mech10838/prettierTest#readme",
+    "devDependencies": {
+        "husky": "^7.0.0",
+        "prettier": "2.5.1"
+    }
 }
