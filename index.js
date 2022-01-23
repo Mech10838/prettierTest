@@ -1,1 +1,1 @@
-'lets to a test on some thing real quick';
+'lets see if the discord thing is working right now';
